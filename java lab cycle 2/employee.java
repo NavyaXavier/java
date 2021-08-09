@@ -3,7 +3,7 @@ public class employee
 {
     public static void main(String[] args) 
     {
-        int count,eno,esalarytemp,flag = 0;
+        int count,esalarytemp,flag = 0;
 
         Scanner scan = new Scanner(System.in);
      
@@ -15,20 +15,17 @@ public class employee
         Scanner scan2 = new Scanner(System.in);
         Scanner scan3 = new Scanner(System.in);
         Scanner scan4 = new Scanner(System.in);
-        System.out.println("Enter the eno :");
-        for(int i = 0; i < count; i++)
+             for(int i = 0; i < count; i++)
         {
+   System.out.println("Enter the eno :");
+
             no[i] = scan2.nextInt();
-        }
 System.out.println("Enter the name :");
-        for(int i = 0; i < count; i++)
-        {
-            eName[i] = scan3.nextLine();
-        }
+        
+            eName[i] = scan2.nextLine();
         System.out.println("Enter the salary :");
-        for(int i = 0; i < count; i++)
-        {
-            salary[i] = scan4.nextInt();
+        
+            salary[i] = scan2.nextInt();
         }
       
           Scanner s = new Scanner(System.in);
